@@ -41,3 +41,42 @@
   font-family: Norse-bold, sans-serif;
   font-size: 100px;
 }
+
+.page {
+  font-family: Norse-bold, sans-serif;
+  background-color: rgba(243, 240, 240, 0.986);
+}
+
+.title {
+  margin: 150px 300px 150px 70px;
+}
+
+form {
+  padding-left: 50px;
+  background-color: #fff;
+  box-shadow: 1px 1px 10px #0000007e;
+}
+
+.form__inputs {
+  display: flex;
+  font-size: 16px;
+}
+
+.form__item {
+  margin-right: 60px;
+}
+
+.input__name {
+  margin-bottom: 0;
+}
+
+input {
+  height: 2rem;
+  padding: 8px 10px 8px 10px;
+}
+
+input {
+  width: 220px;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
