@@ -17,28 +17,35 @@
     </div>
     <div class="page">
       <h2 class="title">Шаблон для формы регистрации, который остнется никмоу не нужным и будет влачить свое жалкое существование на моем гитхабе...</h2>
-      <form action="">
-        <h2 class="form__title">Регистрация пользователя</h2>
-        <div class="form__inputs">
-          <div class="form__item">
-            <p class="input__name">Имя</p>
-            <input type="text">
-            <p class="input__name">Почта</p>
-            <input type="email">
-            <p class="input__name">Пароль</p>
-            <input type="password">
-          </div>
-          <div class="form__item">
-            <p class="input__name"> Фамилия</p>
-            <input type="text">
-            <p class="input__name">Телефон</p>
-            <input type="text">
-            <p class="input__name">Подтвердите пароль</p>
-            <input type="password">
+      <form action=" " method="post">
+        <div class="fields">
+          <h2 class="form__title">Регистрация пользователя</h2>
+          <div class="form__inputs">
+            <div class="form__item">
+              <p class="input__name">Имя</p>
+              <input type="text">
+              <p class="input__name">Почта</p>
+              <input type="email">
+              <p>Пароль</p>
+              <input type="password" class="input__pass" required>
+            </div>
+            <div class="form__item">
+              <p class="input__name"> Фамилия</p>
+              <input type="text">
+              <p class="input__name">Телефон</p>
+              <input type="text">
+              <p>Подтвердите пароль</p>
+              <input type="password" class="input__pass" required>
+            </div>
           </div>
         </div>
-        <button class="btn" type="submit">Создать аккаунт</button>
-        
+        <div class="footer">
+          <button class="btn" type="submit">Создать аккаунт</button>
+          <div class="login">
+            <span>Уже есть аккаунт?</span>
+            <a href="" id="enter">Войти</a>
+          </div>
+        </div>
       </form>
     </div>
   </div>
